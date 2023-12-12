@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+#banner {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#planos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plano {
+    flex: 1;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contato label {
+    margin-bottom: 5px;
+}
+
+#contato input,
+#contato textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Adicione suas personalizações aqui */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    color: #007bff;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  img.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
